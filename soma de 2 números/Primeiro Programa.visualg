@@ -1,0 +1,31 @@
+algoritmo "Soma de dois números"
+
+// Disciplina: LOPAL
+
+// Autor: Gabriel Martins 
+// Data: 13/04/2026
+
+// Função: Executar a soma de dois números
+
+var
+n1, n2: real
+valorFinal: real
+
+// Representação dos números selecionados
+
+inicio
+
+// Códigos para a seleção dos números
+
+   escreva ("Digite o primeiro número escolhido: ")
+   leia(n1)
+   escreva ("Digite o segundo número escolhido: ")
+   leia(n2)
+
+// Comando de calculos dos valores
+
+   valorFinal <- n1 + n2
+   limpatela
+   escreva ("O valor da soma é: ", valorFinal, "!")
+
+fimalgoritmo
